@@ -1,0 +1,111 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: rgb(0, 0, 0); /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-add{
+
+    height: 30%;
+    width: 80%;
+
+    display: flex;
+
+    margin-top: 0.1em;
+    margin-left: 9em;
+
+}
+
+#margem-menu{
+
+    margin-right: 16em;
+
+    text-transform: uppercase;
+
+    font-size: 3.5em;
+
+}
+
+#abrirmodal{
+
+    font-size: 1.5em;
+
+}
+
+
+#root{
+
+    height: 70%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5em;
+
+}
+
+
+.sizeinput{
+
+    height: 3.5em;
+
+}
+
+
+
+.new{
+
+    margin-left: 20em;
+
+}
+
+.tabela{
+
+
+    font-size: 1.5em;
+
+    width: 90%;
+    height: 5em;
+
+}
+
+#lista{
+
+    font-weight: 100;
+
+}
+
+a{
+
+    cursor: pointer;
+
+}
+
+dialog{
+
+    height: 70%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+
+}

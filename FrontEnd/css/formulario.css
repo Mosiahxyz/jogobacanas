@@ -1,0 +1,83 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: rgb(0, 0, 0); /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.7em;
+}
+
+#root{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+#edit{
+
+    height: 1.5em;
+    width: 10em;
+    font-size: 1.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#alterar{
+
+    text-decoration: none;
+
+}
+
+#edit:hover, a:hover{
+
+    color: white;
+
+}
+
+input{
+
+    height: 5em;
+    width: 20em;
+
+}
+
+div{
+
+    width: 50%;
+    margin-right: -20%;
+
+
+}
+
+#cover{
+
+    width: -20em;
+
+}
